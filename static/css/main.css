@@ -1,0 +1,38 @@
+/*
+===========================
+Header Container
+===========================*/
+/*.hero-image {
+  background: url("../images/Centered_Nepal_picture_w1qbru_c_scale,w_777.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*opacity: 0.5;*/
+/*}*/
+
+/*body {
+  background: yellow;
+}*/
+
+/*
+===========================
+Recent Work
+===========================*/
+.project {
+  border: 1px solid red;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.project-img-container, .project-header, .project-blurb{
+
+}
+
+.project-img{
+  margin: 0;
+  width: 100%;
+  border-radius: 0.35em;
+}
+/*.project-img{
+  width: 100%;
+}*/
