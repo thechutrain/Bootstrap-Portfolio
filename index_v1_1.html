@@ -17,9 +17,9 @@
     <!-- Row for header -->
     <nav class="navbar navbar-light bg-faded navbar-dark bg-primary">
       <div class="nav navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">About</a>
-        <a class="nav-item nav-link" href="#">Projects</a>
+        <a class="nav-item nav-link" href="#">Home</a>
+        <a class="nav-item nav-link" href="#About">About</a>
+        <a class="nav-item nav-link" href="#Work">Projects</a>
       </div>
     </nav>
   </div> <!-- closes header div -->
@@ -32,61 +32,118 @@
         <img src="static/images/boltonProfile.jpg" alt="profile picture of Alan rock climbing" class="img-thumbnail">
       </div>
       <div class="col-md-8">
-          <h1>Hi! I'm Alan.</h1>
+          <div class="hr-spacer hidden-md-up"></div>
+          <h1 class="text-xs-center text-md-left">Hi! I'm Alan.</h1>
           <p class="lead">I love the process of problem solving - <br> whether I'm trying to figure out how to do a climb or sitting behind a computer typing away. Learn more about what I do <a href="#About">below</a>.</p> 
       </div>
     </div>
-    <!-- <h1>Hi! I'm Alan</h1>
-    <p class="lead">I love the process of problem solving, <br> whether I am climbing up a cliff or sitting behind a computer typing away. Learn more about what I do <a href="#">below</a>.</p> -->
   </div> <!-- closes jumbotron div -->
+
 
   <!-- About -->
   <div class="row" id="About">
-  
     <!-- Section title -->
     <div class="page-header col-sm-12 col-md-3">
       <h2 class="text-xs-center text-md-right">About Me </h2>
     </div>
-
     <!-- Content -->
-    <section class="col-sm-12 col-md-9 debug">
+    <section class="col-sm-12 col-md-9">
       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nobis. Ratione earum quam rem magnam culpa adipisci harum iusto quis suscipit tempore ipsa eos, blanditiis laboriosam error facere, dolores quaerat.</p>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam reiciendis quisquam nam hic, velit delectus neque magnam magni architecto veritatis laudantium, ipsam in reprehenderit at amet ab qui! Ea, inventore!</p>
     </section>
   </div> <!-- closes About -->
 
+
   <!-- Big <hr> -->
-    <div class="row debug">
+    <div class="row">
       <div class="col-sm-12 col-md-9 offset-md-3">
         <div class="hr-spacer"></div>
         <div class="hr-line"></div>
-<!--         <div class="col-xs-8 offset-xs-2 hr-line"></div> -->
         <div class="hr-spacer"></div> 
       </div>
     </div>
 
+
   <!-- Work -->
   <div class="row" id="Work">
-
     <!-- Section title -->
     <div class="page-header col-sm-12 col-md-3">
       <h2 class="text-xs-center text-md-right">Recent Work </h2>
     </div>
-
     <!-- Content -->
     <section class="col-sm-12 col-md-9 debug">
-      <h3> Title</h3>
-      <p> description goes in here. Very interesting stuff yo</p>
+      <!-- Project #1 -->
+      <article>
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Personal Portfolio Website</h3>
+            <h6 class="card-subtitle"><span class="tag tag-info">bootstrap</span> </h6>
+            <p class="card-text">Made a personal website for myself using the bootstrap framework, in order to showcase my coding projects. Hope you are enjoying it!</p>
+          </div>
+        </div> <!-- closes card div-->   
+      </article>
+      <!-- Project #2 -->
+       <article>
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Battleship.js</h3>
+            <h6 class="card-subtitle"><span class="tag tag-info">JavaScript</span></h6>
+            <!-- <p class="project-post-meta">April 2016</p> -->
+            <p class="card-text">Made a rudimentary browswer-based rendition of the classic board game battleship. My first JavaScript app, and was used as a learning tool. Implemented it in both vanilla JS and with the use of JQuery. </p>
+
+            <div class="card-footer"><p><small>Play the game here: <a href="https://thechutrain.github.io/battleship.js/battleship.html">link</a></small></p></div>
+          </div>
+        </div> <!-- closes card div-->   
+      </article>
+      <!-- Project #3 -->
+      <article>
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Title of Project</h3>
+            <h6 class="card-subtitle"><span class="tag tag-default">default</span> subtitle of proj yo</h6>
+            <p class="card-text">Some quick example text to build on
+            the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div> <!-- closes card div-->   
+      </article>
     </section>
   </div> <!-- closes About -->
 
 
+  <!-- Big <hr> -->
+    <div class="row">
+      <div class="col-sm-12 col-md-9 offset-md-3">
+        <div class="hr-spacer"></div>
+        <div class="hr-line"></div>
+        <div class="hr-spacer"></div> 
+      </div>
+    </div>
+
+
   <!-- Footer -->
-<!--   <address>
-  <strong>Full Name</strong><br>
-  <a href="mailto:#">first.last@example.com</a>
-  </address> -->
+<!--   <footer class="debug">
+    <p>lorem</p>
+  </footer> -->
+  <div class="row" id="Contact">
+    <!-- Section title -->
+    <div class="page-header col-sm-12 col-md-3">
+      <h2 class="text-xs-center text-md-right hidden-sm-down">Contact </h2>
+    </div>
+    <!-- Content -->
+    <section class="col-sm-12 col-md-9">
+      <!-- <p class="lead">Let's Get in Touch!</p> -->
+      <h3>Let's Get in Touch!</h3>
+      <address>
+        <strong>Alan Chu</strong><br>
+        <a href="mailto:chu.chuyalan@gmail.com">chu.chuyalan@gmail.com</a>
+        </address>
+          </section>
+  </div> <!-- closes Footer -->
+
+
+  <!-- Footer -->
+
 
 
 </div> <!-- div that closes container -->
