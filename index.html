@@ -1,120 +1,162 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Alan Chu</title>
+  <title>Alan Chu version 1.1 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <!-- bootstrap CSS from CDN for heroku deployment -->
   <!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
   <!-- updated bootstrap to version -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="static/css/main.css">
-  <link rel="stylesheet" type="text/css"
-  href="static/css/xs-styles.css"/>
-  <link rel="stylesheet" type="text/css"
-  href="static/css/sm-styles.css"/>
+  <link rel="stylesheet" type="text/css" href="static/css/main_v1_1.css">
 </head>
 <body>
-
-<!-- Header -->
-<div class="container" >
-  <div class="row">
-    <div class="col-xs-12 col-md-12">
-
-      <div class="card card-inverse">
-        <img class="card-img img-fluid" src="http://placehold.it/750x500" alt="Card image">
-        <div class="card-img-overlay">
-          <p class="card-text">I'm text that has a background image!</p>
-        </div>
-      </div> <!-- div that closes card-->
-
-    </div>
-
-
-    <!-- card #1 -->
-<!--     <div class="card col-xs-12 col-sm-6">
-      <img class="card-img-top center-block" src="http://placekitten.com/200/200"
-           alt="Card image cap">
-      <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">Some quick example text to build on
-        the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Button</a>
-      </div>
-  </div>  --><!--closes card div -->
-    
-  </div> <!-- closes row-->
-</div>
-
-
-
-
-<!-- Main content -->
 <div class="container">
-  <!-- Recent Work -->
-  <div class="row">
-    <!-- Header for recent work section -->
-    <div class="project col-xs-12 col-sm-12 col-md-12">
-      <h2 class="text-center"> My Recent Work</h2>
-    </div>
-    <!-- Project #1  -->
-    <div class="project-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="project-img-container">
-        <img class="project-img center-block" src="http://placekitten.com/g/600/600" alt="placeholder image">
-      </div>
-      <div class="project-header">
-        <h3><strong>Title of Project:</strong> subtitle here </h3>
-      </div>
-      <div class="project-blurb">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt labore aspernatur voluptas officiis deleniti soluta voluptatibus fugit nam blanditiis, esse accusantium pariatur excepturi rem, earum cumque. Doloribus excepturi, sit dicta.</p>
-      </div>
-    </div>
 
-    <!-- Project #2  -->
-    <div class="project-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="project-img-container">
-        <img class="project-img center-block" src="http://placekitten.com/g/400/400" alt="placeholder image">
+  <!-- Header w. navbar -->
+  <div class="header clearfix">
+    <!-- Row for header -->
+    <nav class="navbar navbar-light bg-faded navbar-dark bg-primary">
+      <div class="nav navbar-nav">
+        <a class="nav-item nav-link" href="#">Home</a>
+        <a class="nav-item nav-link" href="#About">About</a>
+        <a class="nav-item nav-link" href="#Work">Projects</a>
       </div>
-      <div class="project-header">
-        <h3><strong>Title of Project:</strong> subtitle here </h3>
+    </nav>
+  </div> <!-- closes header div -->
+
+
+  <!-- Hero / Jumbotron -->
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="static/images/boltonProfile.jpg" alt="profile picture of Alan rock climbing" class="img-thumbnail">
       </div>
-      <div class="project-blurb">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt labore aspernatur voluptas officiis deleniti soluta voluptatibus fugit nam blanditiis, esse accusantium pariatur excepturi rem, earum cumque. Doloribus excepturi, sit dicta.</p>
+      <div class="col-md-8">
+          <div class="hr-spacer hidden-md-up"></div>
+          <h1 class="text-xs-center text-md-left">Hi! I'm Alan.</h1>
+          <p class="lead">I love the process of problem solving - <br> whether I'm trying to figure out how to do a climb or sitting behind a computer typing away. Learn more about what I do <a href="#About">below</a>.</p> 
       </div>
     </div>
+  </div> <!-- closes jumbotron div -->
 
-    <!-- Project #3  -->
-    <div class="project-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="project-img-container">
-        <img class="project-img center-block" src="http://placekitten.com/g/300/300" alt="placeholder image">
-      </div>
-      <div class="project-header">
-        <h3><strong>Title of Project:</strong> subtitle here </h3>
-      </div>
-      <div class="project-blurb">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt labore aspernatur voluptas officiis deleniti soluta voluptatibus fugit nam blanditiis, esse accusantium pariatur excepturi rem, earum cumque. Doloribus excepturi, sit dicta.</p>
-      </div>
+
+  <!-- About -->
+  <div class="row" id="About">
+    <!-- Section title -->
+    <div class="page-header col-sm-12 col-md-3">
+      <h2 class="text-xs-center text-md-right">About Me </h2>
     </div>
+    <!-- Content -->
+    <section class="col-sm-12 col-md-9">
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nobis. Ratione earum quam rem magnam culpa adipisci harum iusto quis suscipit tempore ipsa eos, blanditiis laboriosam error facere, dolores quaerat.</p>
 
-    <!-- Project #4 -->
-    <div class="project-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="project-img-container">
-        <img class="project-img center-block" src="http://placekitten.com/g/200/200" alt="placeholder image">
-      </div>
-      <div class="project-header">
-        <h3><strong>Title of Project:</strong> subtitle here </h3>
-      </div>
-      <div class="project-blurb">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt labore aspernatur voluptas officiis deleniti soluta voluptatibus fugit nam blanditiis, esse accusantium pariatur excepturi rem, earum cumque. Doloribus excepturi, sit dicta.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam reiciendis quisquam nam hic, velit delectus neque magnam magni architecto veritatis laudantium, ipsam in reprehenderit at amet ab qui! Ea, inventore!</p>
+    </section>
+  </div> <!-- closes About -->
+
+
+  <!-- Big <hr> -->
+    <div class="row">
+      <div class="col-sm-12 col-md-9 offset-md-3">
+        <div class="hr-spacer"></div>
+        <div class="hr-line"></div>
+        <div class="hr-spacer"></div> 
       </div>
     </div>
 
-  </div> <!-- closes row-->
-</div> <!-- closes container-->
 
-<!-- Footer -->
-<footer class="footer">
-  <p><small>Hi I'm the footer</small></p>
-</footer>
+  <!-- Work -->
+  <div class="row" id="Work">
+    <!-- Section title -->
+    <div class="page-header col-sm-12 col-md-3">
+      <h2 class="text-xs-center text-md-right">Recent Work </h2>
+    </div>
+    <!-- Content -->
+    <section class="col-sm-12 col-md-9 debug">
+      <!-- Project #1 -->
+      <article>
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Personal Portfolio Website</h3>
+            <h6 class="card-subtitle"><span class="tag tag-info">bootstrap</span> </h6>
+            <p class="card-text">Made a personal website for myself using the bootstrap framework, in order to showcase my coding projects. Hope you are enjoying it!</p>
+          </div>
+        </div> <!-- closes card div-->   
+      </article>
+      <!-- Project #2 -->
+       <article>
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Battleship.js</h3>
+            <h6 class="card-subtitle"><span class="tag tag-info">JavaScript</span></h6>
+            <!-- <p class="project-post-meta">April 2016</p> -->
+            <p class="card-text">Made a rudimentary browswer-based rendition of the classic board game battleship. My first JavaScript app, and was used as a learning tool. Implemented it in both vanilla JS and with the use of JQuery. </p>
 
+            <div class="card-footer"><p><small>Play the game here: <a href="https://thechutrain.github.io/battleship.js/battleship.html">link</a></small></p></div>
+          </div>
+        </div> <!-- closes card div-->   
+      </article>
+      <!-- Project #3 -->
+      <article>
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title">Title of Project</h3>
+            <h6 class="card-subtitle"><span class="tag tag-default">default</span> subtitle of proj yo</h6>
+            <p class="card-text">Some quick example text to build on
+            the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div> <!-- closes card div-->   
+      </article>
+    </section>
+  </div> <!-- closes About -->
+
+
+  <!-- Big <hr> -->
+    <div class="row">
+      <div class="col-sm-12 col-md-9 offset-md-3">
+        <div class="hr-spacer"></div>
+        <div class="hr-line"></div>
+        <div class="hr-spacer"></div> 
+      </div>
+    </div>
+
+
+  <!-- Footer -->
+<!--   <footer class="debug">
+    <p>lorem</p>
+  </footer> -->
+  <div class="row" id="Contact">
+    <!-- Section title -->
+    <div class="page-header col-sm-12 col-md-3">
+      <h2 class="text-xs-center text-md-right hidden-sm-down">Contact </h2>
+    </div>
+  <!-- Content -->
+    <section class="col-sm-12 col-md-9">
+      <h2>Let's get in touch!</h2>
+      <p class="lead">Interested in collaborating on a project together? Send me an email, and I will get back to you as quickly as I can! </p>
+      <!-- <h3>Let's Get in Touch!</h3> -->
+      <address>
+        <!-- <strong>Alan Chu</strong><br> -->
+        <a href="mailto:chu.chuyalan@gmail.com">chu.chuyalan@gmail.com</a>
+      </address>
+          </section>
+  </div> 
+
+
+
+  <!-- Footer -->
+
+
+
+</div> <!-- div that closes container -->
+
+  <!-- Footer -->
+  <footer class="footer debug">
+    <div class="row">
+      <div class="">
+        <p class="text-xs-center footer-text"><small>&copy 2016 Alan Chu</small></p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,33 +1,30 @@
-/*
+//*
 ===========================
-Header Container
+Layout
 ===========================*/
-
-
-
-
-
-/*
-===========================
-Recent Work
-===========================*/
-.project-wrapper {
-  border: 1px solid red;
-  padding: 0 2.5em;
-  margin-bottom: 20px;
+.hr-spacer{
+  height: 2em;
 }
-.project-img-container{
-
-  } 
-img.project-img{
-  /*margin: 0;*/
-  width: 90%;
-  border-radius: 0.35em;
+.hr-line{
+  border-bottom: 1px gray solid;
 }
 
-.project-header{
 
-  } 
-.project-blurb{
 
+/*.debug {
+  border: 2px red dashed;
+}*/
+
+/*
+===========================
+footer - section
+===========================*/
+footer{
+  /*max-height:;*/
+  color: white;
+  background: #0275d8;
+}
+.footer-text{
+  margin-bottom: 0;
+  padding: 5px 0;
 }
