@@ -4,7 +4,7 @@
   <title>Alan Chu</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
   <!-- bootstrap CSS from CDN for heroku deployment -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
   <link rel="stylesheet" type="text/css" href="static/css/main.css">
   <link rel="stylesheet" type="text/css"
   href="static/css/xs-styles.css"/>
@@ -14,39 +14,36 @@
 <body>
 
 <!-- Header -->
-<div class="container">
-  <header>
-    <p>header</p>
-  </header>  
-  <!-- <nav class="navbar">nav</nav> -->
+<div class="container" >
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+
+      <div class="card card-inverse">
+        <img class="card-img" src="http://placehold.it/750x500" alt="Card image">
+        <div class="card-img-overlay">
+          <p class="card-text">I'm text that has a background image!</p>
+        </div>
+      </div> <!-- div that closes card-->
+      
+    </div>
+
+
+    <!-- card #1 -->
+<!--     <div class="card col-xs-12 col-sm-6">
+      <img class="card-img-top center-block" src="http://placekitten.com/200/200"
+           alt="Card image cap">
+      <div class="card-block">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">Some quick example text to build on
+        the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Button</a>
+      </div>
+  </div>  --><!--closes card div -->
+    
+  </div> <!-- closes row-->
 </div>
 
 
-<!-- Testing out Media -->
-<!-- <div class="container">
-  <div class="row">
-    <ul class="media-list">
-      <li class="media">
-        <a class="media-left" href="#">
-          <img class="media-object" src="/images/pathToYourImage.png" alt="Generic placeholder image">
-        </a>
-        <div class="media-body">
-          <h4 class="media-heading">Media heading</h4>
-          <p>A short sentence to save some space in the code sample</p>
-        </div>
-      </li>
-      <li class="media">
-        <a class="media-left" href="#">
-          <img class="media-object" src="/images/pathToYourImage.png" alt="Generic placeholder image">
-        </a>
-        <div class="media-body">
-          <h4 class="media-heading">Media heading</h4>
-          <p>A short sentence to save some space in the code sample</p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div> -->
 
 
 <!-- Main content -->
@@ -58,7 +55,7 @@
       <h2 class="text-center"> My Recent Work</h2>
     </div>
     <!-- Project #1  -->
-    <div class="project col-xs-12 col-sm-6 col-md-4">
+    <div class="project-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3">
       <div class="project-img-container">
         <img class="project-img center-block" src="http://placekitten.com/g/600/600" alt="placeholder image">
       </div>
@@ -71,7 +68,7 @@
     </div>
 
     <!-- Project #2  -->
-    <div class="project col-xs-12 col-sm-6 col-md-4">
+    <div class="project-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3">
       <div class="project-img-container">
         <img class="project-img center-block" src="http://placekitten.com/g/400/400" alt="placeholder image">
       </div>
@@ -84,7 +81,7 @@
     </div>
 
     <!-- Project #3  -->
-    <div class="project col-xs-12 col-sm-6 col-md-4">
+    <div class="project-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3">
       <div class="project-img-container">
         <img class="project-img center-block" src="http://placekitten.com/g/300/300" alt="placeholder image">
       </div>
@@ -97,7 +94,7 @@
     </div>
 
     <!-- Project #4 -->
-    <div class="project col-xs-12 col-sm-6 col-md-4">
+    <div class="project-wrapper col-xs-12 col-sm-6 col-md-4 col-lg-3">
       <div class="project-img-container">
         <img class="project-img center-block" src="http://placekitten.com/g/200/200" alt="placeholder image">
       </div>
