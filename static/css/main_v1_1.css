@@ -6,6 +6,27 @@ Layout
   padding: 0;
 }*/
 
-.debug {
-  border: 2px red dashed;
+/*.hr-bg{
+  height: 3em;
 }
+
+.hr-sm{
+  height: 1.25em;
+}*/
+.hr-spacer{
+  height: 2em;
+}
+.hr-line{
+  border-bottom: 1px gray solid;
+}
+
+
+
+/*.debug {
+  border: 2px red dashed;
+}*/
+
+/*
+===========================
+Header - section
+===========================*/
