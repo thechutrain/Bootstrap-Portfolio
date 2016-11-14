@@ -2,18 +2,19 @@
 ===========================
 Layout
 ===========================*/
-.hr-spacer{
-  height: 2em;
-}
-.hr-line{
+.line{
   border-bottom: 1px gray solid;
 }
+.spacer {
+  min-height: 2em;
+}
 
 
 
-/*.debug {
+.debug {
   border: 2px red dashed;
-}*/
+  /*min-height: 10px;*/
+}
 
 /*
 ===========================
