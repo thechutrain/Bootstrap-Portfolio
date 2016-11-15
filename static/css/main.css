@@ -10,11 +10,47 @@ Layout
 }
 
 
+/*
+===========================
+Work - section
+===========================*/
+/* - make the section a flex-box,
+to easily change the order of each project */
+#Work > section{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 
-.debug {
-  border: 2px red dashed;
-  /*min-height: 10px;*/
 }
+.project-item{
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+#default-project{
+  order: 6;
+  -webkit-order: 6;
+  -ms-flex-order: 6;
+}
+#battleship-project{
+  order: 2;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+}
+#portfolio-project{
+  order: 0;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+}
+#hangman-project{
+  order: -2;
+  -webkit-order: -2;
+  -ms-flex-order: -2;
+}
+
 
 /*
 ===========================
@@ -28,4 +64,14 @@ footer{
 .footer-text{
   margin-bottom: 0;
   padding: 5px 0;
+}
+
+
+/*
+===========================
+debugging!
+===========================*/
+.debug {
+  border: 2px red dashed;
+  /*min-height: 10px;*/
 }
