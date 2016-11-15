@@ -1,14 +1,36 @@
-//*
+/*
 ===========================
 Layout
 ===========================*/
-.line{
-  border-bottom: 1px gray solid;
+.line {
+  /*min-height: 2em;*/
+  border-bottom: 0.2em #0089FF solid;
 }
-.spacer {
+/* ^^ WHY IS THIS NOT WORKING??*/
+.spacer-top {
   min-height: 2em;
 }
+.spacer-bottom {
+  min-height: 3em;
+}
 
+/*
+===========================
+blockquote- section
+===========================*/
+.blockquote-wrapper{
+  /*margin-left: 15px;*/
+  /*border: 2px red dashed;*/
+}
+
+blockquote{
+  border-left: .25rem solid #0089FF;
+  /* ^^ WHY IS THIS NOT WORKING? it?*/
+}
+
+blockquote > footer{
+  background: none;
+}
 
 /*
 ===========================
@@ -56,10 +78,13 @@ to easily change the order of each project */
 ===========================
 footer - section
 ===========================*/
-footer{
+.footer{
   /*max-height:;*/
   color: white;
-  background: #0275d8;
+  background: /*#0275d8*/;
+  background-color: #00457F;
+  border-top: 5px solid #0089FF;
+
 }
 .footer-text{
   margin-bottom: 0;
@@ -75,3 +100,24 @@ debugging!
   border: 2px red dashed;
   /*min-height: 10px;*/
 }
+
+/*
+Colors??
+0089FF
+3D3E99
+FF9C40
+CC5214
+1416CC
+*/
+
+/*Shade of blue: 
+0089FF
+002240
+007BE5
+00457F
+0067BF
+*/
+
+/*Complimentary Orange
+B26D00 darker
+FF9C00 brighter*/
