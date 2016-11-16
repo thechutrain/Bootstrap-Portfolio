@@ -23,7 +23,7 @@ blockquote- section
   /*border: 2px red dashed;*/
 }
 
-blockquote{
+blockquote.blockquote{
   border-left: .25rem solid #0089FF;
   /* ^^ WHY IS THIS NOT WORKING? it?*/
 }
