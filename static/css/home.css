@@ -65,9 +65,14 @@ html, body {
 /*################ Specifics  ###############*/
 /*------- navbar ------------*/
 .top-row{
-    background-color: #10222B;
+    background-color: rgba(25, 123, 22, 0.95 );
 }
 
+/*------- side bar ------------*/
+.side-content{
+    /*background-color: rgba(25, 123, 22, 0.75 );*/
+    background-color: rgba(34, 84, 122, 0.9 );
+}
 
 
 /*################ Media Queries ###############*/
