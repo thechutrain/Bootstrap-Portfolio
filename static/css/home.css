@@ -1,3 +1,6 @@
+/*------- Debuggin ------------*/
+/* colors:  https://color.adobe.com/zen-and-tea-color-theme-337112/edit/?copy=true*/
+
 /*------- Debuggin ------------
 */
 /*div {
@@ -59,6 +62,36 @@ html, body {
     /*display: none;*/
 }
 
+/*################ Specifics  ###############*/
+/*------- navbar ------------*/
+.top-row{
+    background-color: #10222B;
+}
+
+
+
 /*################ Media Queries ###############*/
 
+/* Big View Port*/
+@media only screen and (min-width : 768px) {
+    /* hide top navigation*/
+    .top-row{
+        display: none;
+    }
+    /*debugging*/
+    .container {
+        border: 5px red solid;
+    }
+}
 
+/* Smaller View Port*/
+@media only screen and (max-width : 767px) {
+    /* hide side bar */
+    .side-content{
+        display: none;
+    }
+    /*debugging*/
+    .container {
+        border: 5px yellow solid;
+    }
+}
