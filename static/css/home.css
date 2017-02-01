@@ -6,10 +6,10 @@
 /*div {
     border: 1px red dashed;
 }*/
-p {
+/*p {
     background: black;
     color: white;
-}
+}*/
 /*################ General  ###############*/
 /*------- Background ------------*/
 * { margin: 0; padding: 0; }
@@ -31,27 +31,23 @@ html, body {
     height: 100%;
     margin: 0;
 }
-
 .container{
-    border: 5px yellow dashed;
+    /*border: 5px yellow dashed;*/
     /*padding: 1em;*/
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-
 /*vertical*/
 .top-row, .middle-row {
     flex-grow: 1;
 }
-
 .middle-row {
     flex-grow: 11;
     display: flex;
     flex-direction: row;
 }
-
 /*horizontal in middle-row*/
 .side-content, .main-content{
     flex: 1;
@@ -65,15 +61,54 @@ html, body {
 /*################ Specifics  ###############*/
 /*------- navbar ------------*/
 .top-row{
+     background-color: rgba(25, 123, 22); /*fall back*/
     background-color: rgba(25, 123, 22, 0.95 );
 }
 
 /*------- side bar ------------*/
 .side-content{
     /*background-color: rgba(25, 123, 22, 0.75 );*/
+    background: rgb(34, 84, 122); /* The Fallback */
     background-color: rgba(34, 84, 122, 0.9 );
 }
 
+/*------- main-content ------------*/
+.main-content{
+    position: relative;
+}
+.text-wrapper, .button-wrapper {
+    position: absolute;
+    /*width: 90%;*/
+    left: 5%;
+    min-height: 3em;
+}
+.text-wrapper {
+    border: 1px green solid;
+    /*background: black;
+    color: white;*/
+    top: 30%;
+}
+.text-wrapper > * {
+    background-color: black;
+    color: white;
+}
+/*.button-wrapper {
+    top: 50%;
+    border: 1px red solid;
+    /*background: black;
+    color: white;*/
+}*/
+.button-wrapper > a {
+    border: 2px solid white;
+    /*background: gray;*/
+    color: white;
+    text-decoration: none !important;
+    padding: 1em;
+}
+.button-wrapper > a:hover {
+    border: 2px solid blue;
+    color: white;
+}
 
 /*################ Media Queries ###############*/
 
@@ -84,9 +119,9 @@ html, body {
         display: none;
     }
     /*debugging*/
-    .container {
+    /*.container {
         border: 5px red solid;
-    }
+    }*/
 }
 
 /* Smaller View Port*/
@@ -96,7 +131,7 @@ html, body {
         display: none;
     }
     /*debugging*/
-    .container {
+    /*.container {
         border: 5px yellow solid;
-    }
+    }*/
 }
