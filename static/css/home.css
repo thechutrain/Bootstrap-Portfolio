@@ -1,0 +1,26 @@
+/*------- Debuggin ------------
+*/
+div {
+    border: 1px red dashed;
+}
+/*################ General  ###############*/
+/*------- Background ------------*/
+body{
+    background: #bababa; 
+}
+
+div.background {
+    width: 100%;
+    height: 100%;
+    background: url(../images/stackedWood_BW_edited.jpg) top center no-repeat;
+    opacity: 0.5;
+    z-index: -99;
+    position: fixed;
+}
+
+/*------- layout ------------*/
+
+
+/*################ Media Queries ###############*/
+
+
