@@ -94,7 +94,9 @@ html, body {
 
 /*------- main-content ------------*/
 .main-content{
-    position: relative;
+    position: relative;    
+    /*background-color: rgb(245,245,245);*/
+    /*background-color: rgba(0,0,0,0.20)*/
 }
 .txt-btn-container {
     position: absolute;
