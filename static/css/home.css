@@ -70,11 +70,49 @@ html, body {
     /*background-color: rgba(25, 123, 22, 0.75 );*/
     background: rgb(34, 84, 122); /* The Fallback */
     background-color: rgba(34, 84, 122, 0.9 );
+    position: relative;
+}
+
+.side-content-container {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    border: 1px black dashed;
+    min-width: 5em;
+    min-height: 10em;
+}
+.side-pic-wrapper {
+    margin: 0 auto;
+    width: 80%;
+    border: 3px pink dashed;
+    text-align: center;
+}
+.profile-pic {
+    border-radius: 100%; 
+    width: 100%;
+}
+.side-header-wrapper{
+    border: 1px blue dashed;
+    margin: 0.5em auto 0 auto;
+    width: 80%;
+    text-align: center;
+}
+.side-nav-wrapper {
+    border: 1px blue dashed;
+    margin: 0.5em auto 0 auto;
+    width: 80%;
+}
+.side-contact-wrapper {
+    border: 1px blue dashed;
+    margin: 0.5em auto 0 auto;
+    width: 80%;
 }
 
 /*------- main-content ------------*/
 .main-content{
-    position: relative;
+    position: relative;    
+    /*background-color: rgb(245,245,245);*/
+    /*background-color: rgba(0,0,0,0.20)*/
 }
 .txt-btn-container {
     position: absolute;
