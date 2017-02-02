@@ -81,7 +81,7 @@ html, body {
     min-width: 5em;
     min-height: 10em;
 }
-.profile-pic-wrapper {
+.side-pic-wrapper {
     margin: 0 auto;
     width: 80%;
     border: 3px pink dashed;
@@ -90,6 +90,22 @@ html, body {
 .profile-pic {
     border-radius: 100%; 
     width: 100%;
+}
+.side-header-wrapper{
+    border: 1px blue dashed;
+    margin: 0.5em auto 0 auto;
+    width: 80%;
+    text-align: center;
+}
+.side-nav-wrapper {
+    border: 1px blue dashed;
+    margin: 0.5em auto 0 auto;
+    width: 80%;
+}
+.side-contact-wrapper {
+    border: 1px blue dashed;
+    margin: 0.5em auto 0 auto;
+    width: 80%;
 }
 
 /*------- main-content ------------*/
